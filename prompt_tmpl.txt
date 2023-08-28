@@ -1,0 +1,43 @@
+Vulnerability Description:
+{description}
+
+Known Affected Softwares:
+{softwares}
+
+Categories:
+- os: Vulnerabilities in operating systems.
+    - win: Vulnerabilities specific to Windows.
+    - linux: Issues specific to Linux distributions.
+    - mac: Vulnerabilities in macOS.
+    - android: Vulnerabilities specific to Android.
+    - ios: Issues specific to iOS.
+- ap: Vulnerabilities in software applications.
+    - web: Issues related to web applications and servers.
+    - mobile: Vulnerabilities in mobile apps.
+    - desktop: Issues in software for PCs or laptops.
+    - gaming: Vulnerabilities in games and gaming platforms.
+    - productivity: Issues in office suites and collaboration tools.
+    - communication: Vulnerabilities in messaging, email, and VoIP applications.
+    - media: Issues in media players and editors.
+    - utility: Vulnerabilities in system tools and utilities.
+    - development: Issues in development tools like IDEs and compilers.
+- hw: Vulnerabilities in physical computer components.
+    - cpu: Issues targeting the central processing unit.
+    - mobile: Vulnerabilities in mobile device hardware.
+    - embedded: Issues within specific-function systems.
+    - iot: Vulnerabilities in Internet of Things device hardware.
+- lib: Vulnerabilities in libraries and frameworks, e.g., OpenSSL and Expat.
+- net: Vulnerabilities related to networking.
+    - proto: Issues concerning network protocols.
+    - manage: Vulnerabilities in network management tools and systems.
+- infra: Vulnerabilities related to infrastructure.
+    - sec: Issues concerning security components, authentication mechanisms, and solutions.
+    - cloud: Vulnerabilities in cloud services and platforms.
+- others: Items or categories that do not fit into the main specified groups; miscellaneous or additional elements.
+
+Job:
+For the vulnerability information provided pertaining to the target product, select the appropriate category (abbreviation) from the specified category list.
+If multiple categories can be chosen, please output all of them. If the product in question doesn't fit into any of the categories, label it as "others".
+Do not output in a format that does not exist in the category list.
+In addition, extract the targeted product name string from the Vulnerability Description.
+Do not extract from The Known Affected Softwares.
